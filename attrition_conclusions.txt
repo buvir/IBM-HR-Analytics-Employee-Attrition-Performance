@@ -1,0 +1,16 @@
+
+### Key Findings from IBM HR Attrition Analysis
+
+1. **Overall Attrition Rate**: 16.12% of employees left the company. (~1 in 6 employees)
+2. **Average Tenure**: Employees stayed for an average of 7.0 years before leaving.
+3. **Age Factor**: Younger employees (<30) show higher attrition compared to older groups.
+4. **Gender Factor**: Attrition slightly higher among males than females.
+5. **Department Factor**: Sales shows the highest attrition, R&D lower, HR moderate.
+6. **Income Factor**: Employees with lower monthly income are more likely to leave.
+
+### Conclusions
+
+- Attrition is moderate but concerning, with 16% turnover.  
+- Early-career employees and Sales staff are at higher risk.  
+- Low salary, high workload (travel), and poor work-life balance are strong drivers.  
+- Stronger retention programs, fair pay, and work-life initiatives can reduce attrition.
