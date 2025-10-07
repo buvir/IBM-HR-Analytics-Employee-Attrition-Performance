@@ -57,6 +57,10 @@ Attrition—when employees leave the company—can significantly impact producti
 - Key features influencing attrition include:  
   - **OverTime, JobRole, MonthlyIncome, WorkLifeBalance, Age**  
 
+
+IBM_HR_Attrition_Model_Extended.ipynb
+This Notebook for the Pipline
+
 ---
 📂 Final Project Structure
 
@@ -64,14 +68,37 @@ IBM-HR-Attrition/
 │── data/
 │   └── WA_Fn-UseC_-HR-Employee-Attrition.csv
 │── notebooks/
-│   └── IBM_HR_Attrition_EDA_Model.ipynb
+│   └── IBM_HR_Attrition_EDA_Model.ipynbv # EDA & Model 
+     └── IBM_HR_Attrition_Model_Extended.ipynb # Pipeline 
+     └── Streamlit_app.py # Streamlit App
+
 │── README.md
 │── requirements.txt
 │── .gitignore
 │── venv/        # (ignored in git)
 
+🛠 Steps to Create & Manage venv
+1. Create Virtual Environment
 
+From your project root:
 
+# Create venv inside the project folder
+python -m venv venv
+
+2. Activate Environment
+
+Windows (cmd):
+
+venv\Scripts\activate
+for the requirment Libraries to install
+```bash
+pip install -r requirements.txt
+
+```
+
+Streamlit:
+pip install streamlit plotly pandas
+Run: streamlit run Streamlit_app.py
 ## 🚀 How to Run  
 1. Clone repo & open notebook:  
    ```bash
@@ -94,5 +121,10 @@ IBM-HR-Attrition/
 
 ---
 
-## 📜 License  
-This project uses the **IBM HR Attrition Dataset (fictional)** provided for educational purposes.  
+# Conclusions
+- Attrition is moderate but concerning at 16%
+- Early-career employees and Sales staff are at higher risk
+- Low salary, frequent travel, poor work-life balance drive attrition
+- Stronger retention programs, fair pay, and work-life initiatives are needed
+
+
